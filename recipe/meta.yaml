@@ -1,5 +1,5 @@
 {% set name = "gdtchron" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gdtchron-{{ version }}.tar.gz
-  sha256: 85c369d35184474b398fa5fb64fc02360137bae954f7c911576a1002d60b16ba
+  sha256: 68bcd3f4548cbce1b5b886299c72951f9af32bcdae6ecc6ee09e705197ad3a1f
 
 build:
   noarch: python
